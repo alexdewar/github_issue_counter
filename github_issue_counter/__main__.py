@@ -1,8 +1,10 @@
 """The entry point for the GitHub Issue Counter program."""
 
-from . import count_issues
 import sys
+
 import dateparser
+
+from . import count_issues
 
 
 def main() -> None:
