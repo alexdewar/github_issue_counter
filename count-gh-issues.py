@@ -4,7 +4,9 @@ import json
 import subprocess as sp
 import sys
 from datetime import datetime
+
 import dateparser
+
 
 def main(user: str, from_date_str: str):
     from_date = dateparser.parse(from_date_str)
@@ -14,6 +16,7 @@ def main(user: str, from_date_str: str):
     dates = (datetime.fromisoformat(val["updatedAt"]) for val in json.loads(ret.stdout))
     count = len(list(date > from_date for date in dates))
     print(count)
+
 
 if __name__ == "__main__":
     main(sys.argv[1])
