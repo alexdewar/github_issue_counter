@@ -16,4 +16,4 @@ def count_issues(user: str, from_date: datetime) -> int:
 
     ret = sp.run(cmd.split(" "), capture_output=True)
     dates = (datetime.fromisoformat(val["updatedAt"]) for val in json.loads(ret.stdout))
-    return len(list(date > from_date for date in dates))
+    return sum(date > from_date for date in dates)
