@@ -22,7 +22,7 @@ pytest-mock = "^3.7.0"
 pre-commit = "^4.2.0"
 ruff = "^0.11.10"
 mypy = "^1.15.0"
-types-dateparser = "^1.2.0.20250408"
+types-dateparser = "^1.2.0.20250516"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
