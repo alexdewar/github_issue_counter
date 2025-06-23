@@ -21,7 +21,7 @@ pytest-mypy = "^1.0.1"
 pytest-mock = "^3.14.1"
 pre-commit = "^4.2.0"
 ruff = "^0.11.13"
-mypy = "^1.16.0"
+mypy = "^1.16.1"
 types-dateparser = "^1.2.0.20250601"
 
 [build-system]
