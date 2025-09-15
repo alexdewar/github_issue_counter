@@ -20,7 +20,7 @@ pytest-cov = "^6.3.0"
 pytest-mypy = "^1.0.1"
 pytest-mock = "^3.15.0"
 pre-commit = "^4.3.0"
-ruff = "^0.12.12"
+ruff = "^0.13.0"
 mypy = "^1.17.1"
 types-dateparser = "^1.2.2.20250809"
 
